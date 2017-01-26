@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="neongreen">#85ff60</color>
+    <color name="fadeblue">#bed0f5</color>
+    <color name="fadepink">#f1b9cc</color>
+    <color name="brightyellow">#fafa50</color>
+    <color name="fadegreen">#bbd6c8</color>
+    <color name="whitypink">#e1cdd1</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="lightblue">#8998e9</color>
+    <color name="youtubered">#E62117</color>
+</resources>

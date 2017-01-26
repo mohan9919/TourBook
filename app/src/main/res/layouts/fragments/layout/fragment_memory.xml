@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/activity_gallery"
+    android:layout_width="match_parent"
+    android:layout_height="520dp"
+    android:orientation="vertical">
+    <!--xmlns:app="http://schemas.android.com/tools"-->
+    <FrameLayout
+        android:id="@+id/memorygallery_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        >
+
+
+    </FrameLayout>
+    <!--android:layout_weight="6"
+    android:layout_weight="1"-->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/memorygallery_open_camera_fab"
+            android:text="Open Camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"/>
+
+    </FrameLayout>
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+                             <!--<FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="4">
+
+                            <android.support.v4.view.ViewPager
+                                android:id="@+id/image_viewer_vp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                >
+
+                            </android.support.v4.view.ViewPager>
+
+                            </FrameLayout>-->
+                                                    <!--<FrameLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="30dp"
+                                                    android:background="@color/colorPrimaryDark">
+                                                    <TextView
+                                                        android:text="Your Images"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent" />
+
+                                                    </FrameLayout>-->
+
+                            <!--<GridView
+                            android:id="@+id/grid_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="2"
+                            android:columnWidth="0dp"
+                            android:numColumns="3"
+                            android:horizontalSpacing="0dp"
+                            android:verticalSpacing="5dp"
+                            android:gravity="center"
+                            android:clickable="true"
+                            android:scrollbars="horizontal"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="0dp"
+                            android:scrollbarAlwaysDrawHorizontalTrack="true"
+                            android:stretchMode="columnWidth"
+                                />-->
+                                                        <!--<FrameLayout
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="0dp"
+                                                        android:layout_weight="1"
+                                                        android:alpha=".5">
+                                                        <Button
+                                                            android:id="@+id/camera"
+                                                            android:hint="camera"
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content" />-->
+
+                                                                <!--</FrameLayout>-->

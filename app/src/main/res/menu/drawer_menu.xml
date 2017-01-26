@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Places">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title=" Near By Places"
+                    android:id="@+id/drawer_nearby_id"
+                    android:icon="@drawable/nearbyicon"/>
+                <item android:title="Map"
+                    android:id="@+id/drawer_map_id"
+                    android:icon="@drawable/mapicontrans"/>
+
+            </group>
+        </menu>
+    </item>
+    <item android:title="Accessories">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="Weather"
+                    android:id="@+id/drawer_weather"
+                    android:icon="@drawable/weatherimg"/>
+
+            </group>
+        </menu>
+
+    </item>
+
+
+</menu>

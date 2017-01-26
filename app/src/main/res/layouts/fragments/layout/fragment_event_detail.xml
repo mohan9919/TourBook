@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="12"
+    android:gravity="center_horizontal"
+    >
+    <TextView
+        android:id="@+id/eventdetail_event_name_tv"
+        android:text="Event name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_weight="2" />
+    <TextView
+        android:id="@+id/eventdetail_budget_status_tv"
+        android:hint="Budget status"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/eventdetail_percentage_tv"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_marginRight="3dp"
+        android:layout_weight="1"
+        android:weightSum="7">
+        <TextView
+            android:id="@+id/eventdetail_current_percentage_tv"
+            android:text="0%"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:textColor="@color/white"
+            android:layout_weight="1"/>
+
+        <ProgressBar
+            android:id="@+id/eventdetail_expendature_percentage_pb"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:background="@color/white"
+            android:backgroundTint="@color/black"
+            android:backgroundTintMode="multiply"
+            android:max="100"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:layout_marginTop="15dp">
+
+            </ProgressBar>
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:id="@+id/eventdetail_hundere_percent_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="100%"
+            android:textColor="@color/white"
+            android:gravity="left"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:layout_marginTop="10dp">
+        <ExpandableListView
+            android:id="@+id/eventdetailfragment_expandable_lists_el"
+            android:layout_width="match_parent"
+            android:layout_height="530dp"
+            >
+        </ExpandableListView>
+
+
+    </LinearLayout>
+
+
+
+
+    <!--<Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/eventdetail_add_expense_btn"
+        android:hint="Add Expense"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/eventdetail_view_all_expense_btn"
+        android:hint="View All Expense"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <Button
+        android:id="@+id/eventdetail_add_more_budget_btn"
+        android:hint="Add more Budget"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <Button
+        android:id="@+id/eventdetail_delete_expense_history_btn"
+        android:hint="Delete History"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <Button
+        android:id="@+id/eventdetail_delete_event_btn"
+        android:hint="Delete This Event"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <Button
+        android:id="@+id/eventdetail_edit_event_btn"
+        android:hint="Edit Event"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <Button
+        android:id="@+id/eventdetail_moments_btn"
+        android:hint="Moments"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />-->
+
+</LinearLayout>

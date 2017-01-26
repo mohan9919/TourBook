@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <!--tools:context="com.example.mhn.googlemapproject.MainActivity"-->
+    <EditText
+        android:id="@+id/location_et"
+        android:hint="Where do you want to go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9deaea"
+        android:textColor="#c70828"
+        android:textSize="25sp"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/goBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Go"
+        android:background="#bfeaa8"
+        android:textColor="#e90756"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:onClick="clickGoBtn"/>
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.MapFragment"
+
+        />
+</LinearLayout>
